@@ -21,3 +21,14 @@ Open your terminal and run the following command to grant execution permissions:
 
 ```bash
 chmod +x ollama_backup.sh
+
+=========================================================
+ Ollama Model Management Utility 
+=========================================================
+NOTE: Please ensure all paths in the CONFIGURATION ZONE are correct.
+This script uses rsync for reliable backup and restore.
+
+Available Commands:
+   1) 💾 Backup Models (Source Mac -> External Drive)
+   2) 🔄 Restore Models (External Drive -> Target Mac)
+   3) 🏠 Exit
