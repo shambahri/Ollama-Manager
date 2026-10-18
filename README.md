@@ -22,6 +22,8 @@ Open your terminal and run the following command to grant execution permissions:
 ```bash
 chmod +x ollama_backup.sh
 
+./ollama_backup.sh
+
 =========================================================
  Ollama Model Management Utility 
 =========================================================
@@ -32,3 +34,15 @@ Available Commands:
    1) 💾 Backup Models (Source Mac -> External Drive)
    2) 🔄 Restore Models (External Drive -> Target Mac)
    3) 🏠 Exit
+
+Option 1 (Backup): Transfers your local models from ~/.ollama/models/ to your external drive.
+
+Option 2 (Restore): Copies models from your external drive backup back into your local Ollama folder on a new or existing machine.
+
+🛠️ Requirements
+Bash Shell
+
+rsync (pre-installed on macOS and most Linux distributions)
+
+📄 License
+This project is licensed under the MIT License - feel free to modify and share!
